@@ -1,0 +1,12 @@
+<header >Header
+  	<h1> Mes projets </h1>
+</header>
+
+<div id="gallery-container" >
+    <figure
+    ng-repeat="thisProject in projectsList"
+    ng-click="openProject(thisProject)">
+    	<img ng-src="{{thisProject.imgpath}}" alt="Logo du site"/>
+    	<figcaption>{{thisProject.name}}</figcaption>
+	</figure>
+</div>

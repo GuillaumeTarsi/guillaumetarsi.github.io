@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Description du site"/>
+    <meta name="keywords" content="todo, mots, clefs"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Chez Tarsi</title>
+    <link rel="icon" href="favicon.png" type="image/png"/>
+    <link rel="shortcut-icon" href="faviconico" type="image/ico"/>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.min.js"></script>
+          <script type="text/javascript" src="script/main.js"></script>
+
+  </head>
+
+
+  <body ng-app="app" ng-controller="appCtrl">
+
+     <nav class="col-1">
+        <img id="img_logo" src="resources/tarsi-logo.png" alt="Logo du site"/>
+
+        <ul id="nav-menu">
+          <li ng-click="return updateView('home');"><a class="current" href="#">Accueil</a></li>
+          <li ng-click="updateView('projects');"><a href="#">Mes projets</a></li>
+          <li ng-click="updateView('contact');"><a href="#">Me contacter</a></li>
+        </ul>
+    </nav>
+
+    <ng-s
+    <div class="col-2 slide-animate-container" >
+      <main  >
+        <div class="content slide-animate" ng-include="template">
+        </div>
+              <footer>Footer</footer>
+
+      </main>
+    
+    
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <script src="https://use.fontawesome.com/15e07be532.js"></script>
+
+
+    <!-- Angular Library -->
+
+
+    <!-- Angular Material Library -->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>-->
+
+    <!-- Fonts from Google Font -->
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:bold,italic,bolditalic" rel="stylesheet">-->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+   <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>-->
+
+
+  </body>
+</html>
