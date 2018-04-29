@@ -1,5 +1,14 @@
 {
-  "home" : "Accueil",
-  "about" : "À propos",
-  "portfolio" : "Mes projets"
+  "nav" : {
+    "home" : "Accueil",
+    "about" : "À propos",
+    "portfolio" : "Mes projets",
+    "contact" : "Me contacter"
+  },
+  "section_contact" : {
+    "field-email" : "E-mail",
+    "field-phone_number" : "Téléphone",
+    "field-city" : "Basé à",
+    "field-social_networks" : "Vous pouvez me suivre par ici"
+  }
 }

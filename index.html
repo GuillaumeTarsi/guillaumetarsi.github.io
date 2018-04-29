@@ -30,7 +30,9 @@
 
 <body class="accueil-visible">
 
-	
+<button onclick="i18next.changeLanguage('en')">english</button>
+ <button onclick="i18next.changeLanguage('fr')">fr</button>
+
 	<header class="headermobile mobile col-12">
 		<button id="releaseMenu" ></button>
 		<h1>Guillaume Tarsi</h1>
@@ -56,7 +58,7 @@
         	 <a id="nav-home" class="target-accueil current" href="#accueil"></a>
               <a id="nav-about" class="target-a-propos" href="#a-propos"></a>
               <a id="nav-portfolio" class="target-portfolio" href="#portfolio"></a>
-              <a class="target-contact" href="#contact">Contact</a>
+              <a id="nav-contact" class="target-contact" href="#contact">Contact</a>
 				</nav>
 			</div>
 		</header>
@@ -73,33 +75,24 @@
 
 						
 			<section id="a-propos" class="about">
-				<h2>À propos</h2>
+				<h2 id="section_title-about"></h2>
 				<div class="section-content text-content">
-      
-           <p>
-          Après avoir commencé dans le milieu de la télé associative(TéléSorbonne) et du court-métrage (réalisation, écriture, montage), j'ai élargi mes projets d'écriture ; c'est ainsi qu'est né en 2013 le webcomic d'actualité Much Politik, bientôt décliné sous de multiples formats transmédias (albums papier, site web participatif, jeu vidéo).</p>
-			<button onclick="i18next.changeLanguage('en')">
-  english
-  </button>
-  <button onclick="i18next.changeLanguage('fr')">
-  fr
-  </button>
-          <p> Aujourd'hui, je travaille en tant qu'auteur-scénariste sur des projets d'écriture à plus long terme sous divers formats, comme la série, le jeu vidéo, ou les chroniques d'actualité. Je crée également des storyboards pour la bande dessinée. Et je continue toujours, en parallèle, d'explorer les possibilités du transmédia, en particulier sur le web !
-          </p>
-       
-        </br>
-          <p>
-           ►<a class="clickable-link" href="./ressources/files/CV-GuillaumeTarsi.pdf">Télécharger mon CV</a>
-          </p>
-      </div>
-								
+					<p>Après avoir commencé dans le milieu de la télé associative(TéléSorbonne) et du court-métrage (réalisation, écriture, montage), j'ai élargi mes projets d'écriture ; c'est ainsi qu'est né en 2013 le webcomic d'actualité Much Politik, bientôt décliné sous de multiples formats transmédias (albums papier, site web participatif, jeu vidéo).
+					</p>
+					<p> Aujourd'hui, je travaille en tant qu'auteur-scénariste sur des projets d'écriture à plus long terme sous divers formats, comme la série, le jeu vidéo, ou les chroniques d'actualité. Je crée également des storyboards pour la bande dessinée. Et je continue toujours, en parallèle, d'explorer les possibilités du transmédia, en particulier sur le web !
+					</p>
+					</br>
+					<p>
+						►<a class="clickable-link" href="./ressources/files/CV-GuillaumeTarsi.pdf">Télécharger mon CV</a>
+					</p>
+				</div>				
 			</section>
 
 			
 			
 			
 			<section id="portfolio" class="portfolio">
-				<h2>Mes projets</h2>
+			<h2 id="section_title-portfolio"></h2>
         <!--<span class="h2-subheader"> — Mes projets et créations</span>-->
 
         <div class="section-content">
@@ -186,34 +179,33 @@
 			
 			
 			
-			<section id="contact" class="contact">	
-				<h2>Me contacter</h2>
+		<section id="contact" class="contact">	
+		
+			<h2 id="section_title-contact"></h2>
 
-        <div class="section-content">
-          <div class="col45 left">
-          <img class="bio-photo" src="ressources/images/bio-photo2.png" alt="Photo de Guillaume Tarsi" title="Guillaume Tarsi, le regard malicieux perdu dans l'horizon radieux d'un avenir à construire ensemble">
-          </div>
+        	<div class="section-content">
+          		<div class="col45 left">
+	        		<img class="bio-photo" src="ressources/images/bio-photo2.png" alt="Photo de Guillaume Tarsi" title="Guillaume Tarsi, le regard malicieux perdu dans l'horizon radieux d'un avenir à construire ensemble">
+		        </div>
                 
-          <div class="col30 left contact_info">
-             <div class="contact_info-main text-content">
-              <p alt="e-mail address">E-mail — <strong>guillaume.tarsi@gmail.com</strong></p>
-              <p alt="phone number">Téléphone — <strong> +33 6 20 17 77 75</strong></p>
-              <p alt="city">Basé à <strong>Paris</strong></p>
-            </div>
+          		<div class="col30 left contact_info">
+             		<div class="contact_info-main text-content">
+              			<p alt="e-mail address"><span id="section_contact-email"></span> — <strong>guillaume.tarsi@gmail.com</strong></p>
+              			<p alt="phone number"><span id="section_contact-phone_number"></span> — <strong> +33 6 20 17 77 75</strong></p>
+              			<p alt="city"><span id="section_contact-city"></span> <strong>Paris</strong></p>
+            		</div>
 
-            <div class="contact_info-social">
-              <p>Vous pouvez me suivre par ici :</p>
-              <a class="social_button" href=http://www.twitter.com/guillaumetarsi><div class="button-twitter"></div><span class="social_button-name">Twitter</span></a>
-              <a class="social_button" href=http://www.facebook.com/guillaumetarsi> <div class="button-facebook"></div><span class="social_button-name">Facebook</span></a>
-              <a class="social_button" href=http://www.github.com/guillaumetarsi><div class="button-github"></div><span class="social_button-name">Github</span></a>
-            </div>
-          </div>
-
-
-	</section>
+            		<div class="contact_info-social">
+              			<p><span id="section_contact-social_networks"></span> :</p>
+              			<a class="social_button" href=http://www.twitter.com/guillaumetarsi><div class="button-twitter"></div><span class="social_button-name">Twitter</span></a>
+              			<a class="social_button" href=http://www.facebook.com/guillaumetarsi> <div class="button-facebook"></div><span class="social_button-name">Facebook</span></a>
+              			<a class="social_button" href=http://www.github.com/guillaumetarsi><div class="button-github"></div><span class="social_button-name">Github</span></a>
+            		</div>
+          		</div>
+          	</div>
+		</section>
 		
-		</div>
-		
+
 		
 		<nav class="menu">
 			<a title="" href="#accueil">

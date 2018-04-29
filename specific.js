@@ -27,11 +27,15 @@ function updateContent() {
   document.getElementById('nav-portfolio').innerHTML = i18next.t('nav.portfolio', { what: 'i18next' });
   document.getElementById('nav-contact').innerHTML = i18next.t('nav.contact', { what: 'i18next' });
 
-  document.getElementById('nav-home').innerHTML = i18next.t('home', { what: 'i18next' });
-  document.getElementById('nav-home').innerHTML = i18next.t('home', { what: 'i18next' });
-  document.getElementById('nav-home').innerHTML = i18next.t('home', { what: 'i18next' });
-  document.getElementById('nav-home').innerHTML = i18next.t('home', { what: 'i18next' });
-  document.getElementById('nav-home').innerHTML = i18next.t('home', { what: 'i18next' });
+  document.getElementById('section_title-about').innerHTML = i18next.t('nav.about', { what: 'i18next' });
+  document.getElementById('section_title-portfolio').innerHTML = i18next.t('nav.portfolio', { what: 'i18next' });
+  document.getElementById('section_title-contact').innerHTML = i18next.t('nav.contact', { what: 'i18next' });
+
+  document.getElementById('section_contact-email').innerHTML = i18next.t('section_contact.field-email', { what: 'i18next' });
+  document.getElementById('section_contact-phone_number').innerHTML = i18next.t('section_contact.field-phone_number', { what: 'i18next' });
+  document.getElementById('section_contact-city').innerHTML = i18next.t('section_contact.field-city', { what: 'i18next' });
+  document.getElementById('section_contact-social_networks').innerHTML = i18next.t('section_contact.field-social_networks', { what: 'i18next' });
+
 
   
 }
