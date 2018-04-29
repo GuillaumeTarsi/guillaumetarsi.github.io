@@ -3,6 +3,7 @@
 
 
 <head>
+
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -14,9 +15,15 @@
 	<!--<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />-->
 	<link rel="stylesheet" type="text/css" href="./ressources/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="./ressources/css/themes/tarsi/default.css" />
-  <link rel="stylesheet" type="text/css" href="./ressources/css/page-home.css" />
+  	<link rel="stylesheet" type="text/css" href="./ressources/css/page-home.css" />
 
+  	<script src="https://unpkg.com/i18next/i18next.js"></script>
+	<script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+	<script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
 	<script src="ressources/js/modernizr.custom.js"></script>
+
+
+
 </head>
 
 
@@ -27,15 +34,18 @@
 	<header class="headermobile mobile col-12">
 		<button id="releaseMenu" ></button>
 		<h1>Guillaume Tarsi</h1>
-		
-		<nav class="menu menumobile">	
-			<a class="target-accueil current" href="#accueil">Accueil</a>
-      <a class="target-a-propos" href="#a-propos">À propos</a>
+			<div style="height: 150px">
+  
+		<nav class="menu menumobile">
+
+			<a class="target-accueil current" href="#accueil"></a>
+     		<a class="target-a-propos" href="#a-propos">À propos</a>
 			<a class="target-portfolio" href="#portfolio">Mes projets</a>
 			<a class="target-contact" href="#contact">Contact</a>
 		</nav>
 	</header>	
 	
+
 	
 	
 	<div id="container" class="col-12">
@@ -43,9 +53,9 @@
 		<header class="headerstandard headerstandard-shrink">
 			<div class="headerstandard-inner">
 				<nav class="menu menustandard">
-        	 <a class="target-accueil current" href="#accueil">Accueil</a>
-              <a class="target-a-propos" href="#a-propos">À propos</a>
-              <a class="target-portfolio" href="#portfolio">Mes projets</a>
+        	 <a id="nav-home" class="target-accueil current" href="#accueil"></a>
+              <a id="nav-about" class="target-a-propos" href="#a-propos"></a>
+              <a id="nav-portfolio" class="target-portfolio" href="#portfolio"></a>
               <a class="target-contact" href="#contact">Contact</a>
 				</nav>
 			</div>
@@ -68,7 +78,12 @@
       
            <p>
           Après avoir commencé dans le milieu de la télé associative(TéléSorbonne) et du court-métrage (réalisation, écriture, montage), j'ai élargi mes projets d'écriture ; c'est ainsi qu'est né en 2013 le webcomic d'actualité Much Politik, bientôt décliné sous de multiples formats transmédias (albums papier, site web participatif, jeu vidéo).</p>
-
+			<button onclick="i18next.changeLanguage('en')">
+  english
+  </button>
+  <button onclick="i18next.changeLanguage('fr')">
+  fr
+  </button>
           <p> Aujourd'hui, je travaille en tant qu'auteur-scénariste sur des projets d'écriture à plus long terme sous divers formats, comme la série, le jeu vidéo, ou les chroniques d'actualité. Je crée également des storyboards pour la bande dessinée. Et je continue toujours, en parallèle, d'explorer les possibilités du transmédia, en particulier sur le web !
           </p>
        
@@ -224,6 +239,6 @@
 	
 	<!-- Gestion générale -->
 	<script src="ressources/js/custom.js"></script>
-
+	<script src="./specific.js"></script>
 </body>
 </html>
