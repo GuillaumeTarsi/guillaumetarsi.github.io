@@ -5,10 +5,36 @@
     "portfolio" : "Mes projets",
     "contact" : "Me contacter"
   },
-  "section_contact" : {
-    "field-email" : "E-mail",
-    "field-phone_number" : "Téléphone",
-    "field-city" : "Basé à",
-    "field-social_networks" : "Vous pouvez me suivre par ici"
+  "page_home" : {
+   "section_home": {
+      "subheader" : "Auteur-scénariste et créateur multimédia"
+    },
+    "section_about": {
+      "paragraph_1" : "Après avoir commencé dans le milieu de la télé associative(TéléSorbonne) et du court-métrage (réalisation, écriture, montage), j'ai élargi mes projets d'écriture ; c'est ainsi qu'est né en 2013 le webcomic d'actualité Much Politik, bientôt décliné sous de multiples formats transmédias (albums papier, site web participatif, jeu vidéo).",
+      "paragraph_2" : "Aujourd'hui, je travaille en tant qu'auteur-scénariste sur des projets d'écriture à plus long terme sous divers formats, comme la série, le jeu vidéo, ou les chroniques d'actualité. Je crée également des storyboards pour la bande dessinée. Et je continue toujours, en parallèle, d'explorer les possibilités du transmédia, en particulier sur le web !",
+      "download_CV" : "Télécharger mon CV"
+    },
+    "section_contact" : {
+      "field-email" : "E-mail",
+      "field-phone_number" : "Téléphone",
+      "field-city" : "Basé à",
+      "field-social_networks" : "Vous pouvez me suivre par ici"
+    }
+  },
+  "page_project" : {
+    "general" : {
+      "my_roles" : "Mes rôles",
+      "summary" : "En résumé"
+    },
+    "specific" : {
+      "muchpolitik" : {
+      },
+      "muchpolitik_videogame" : {
+
+      },
+      "ete_indien" : {
+
+      }
+    }
   }
 }

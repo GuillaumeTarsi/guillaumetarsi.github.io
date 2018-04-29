@@ -31,10 +31,16 @@ function updateContent() {
   document.getElementById('section_title-portfolio').innerHTML = i18next.t('nav.portfolio', { what: 'i18next' });
   document.getElementById('section_title-contact').innerHTML = i18next.t('nav.contact', { what: 'i18next' });
 
-  document.getElementById('section_contact-email').innerHTML = i18next.t('section_contact.field-email', { what: 'i18next' });
-  document.getElementById('section_contact-phone_number').innerHTML = i18next.t('section_contact.field-phone_number', { what: 'i18next' });
-  document.getElementById('section_contact-city').innerHTML = i18next.t('section_contact.field-city', { what: 'i18next' });
-  document.getElementById('section_contact-social_networks').innerHTML = i18next.t('section_contact.field-social_networks', { what: 'i18next' });
+  document.getElementById('section_home-subheader').innerHTML = i18next.t('page_home.section_home.subheader', { what: 'i18next' });
+
+  document.getElementById('section_about-paragraph_1').innerHTML = i18next.t('page_home.section_about.paragraph_1', { what: 'i18next' });
+  document.getElementById('section_about-paragraph_2').innerHTML = i18next.t('page_home.section_about.paragraph_1', { what: 'i18next' });
+  document.getElementById('section_about-download_CV').innerHTML = i18next.t('page_home.section_about.download_CV', { what: 'i18next' });
+
+  document.getElementById('section_contact-email').innerHTML = i18next.t('page_home.section_contact.field-email', { what: 'i18next' });
+  document.getElementById('section_contact-phone_number').innerHTML = i18next.t('page_home.section_contact.field-phone_number', { what: 'i18next' });
+  document.getElementById('section_contact-city').innerHTML = i18next.t('page_home.section_contact.field-city', { what: 'i18next' });
+  document.getElementById('section_contact-social_networks').innerHTML = i18next.t('page_home.section_contact.field-social_networks', { what: 'i18next' });
 
 
   
