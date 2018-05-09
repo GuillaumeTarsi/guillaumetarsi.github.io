@@ -18,6 +18,10 @@ html {
 }
 body {
   min-height: 100%  !important;
+  	font-family: calibri;
+	font-size: 1.2em;
+	color : grey;
+
 }
 
 h1 {
@@ -25,16 +29,14 @@ h1 {
 	text-align: center;
 }
 
-
+#subtitle {
+	text-align: center;
+	color : grey;
+	font-family: calibri;
+}
 
 #footer {
 bottom: 0;
-}
-
-p {
-	font-family: calibri;
-	font-size: 1.2em;
-	color : grey;
 }
 
 /* -----------------------------------------
@@ -104,4 +106,60 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+/* -----------------------------------------
+	MEDIA QUERIES : TABLETS
+----------------------------------------- */
+
+
+/* TABLETS */
+@media screen and (max-width: 1020px ) {
+     
+}
+
+
+
+
+
+/* -----------------------------------------
+	MEDIA QUERIES : SMARTPHONES
+----------------------------------------- */
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+	h1 {
+		font-size: 1.3em;
+	}
+
+	#subtitle {
+		font-size : 0.1em;
+		/*display: none;*/
+	}
+
+	#context {
+		font-size: 1em;
+	}
+
+
+	#possible_actions li {
+		padding: 15px;
+	}
+
+
+	#possible_actions .action-button{
+		font-size: 1em;
+		border : 2px grey solid;
+		padding: 8px;
+		border-radius : 5px;
+	}
+   
+}
 
