@@ -36,7 +36,7 @@
 
 <body ng-app="">
 
-	 <ng-include src="'header.html'"></ng-include>
+	 <ng-include src="'partials/header.html'"></ng-include>
 
 	
 	<div id="video-wrapper" class="row">
@@ -47,7 +47,7 @@
 
 		<div class="row">
 		<div class="twelve columns">
-			<p id="context"> Après avoir visionné la vidéo, choisissez votre prochaine action :</p>
+		<ng-include src="'partials/context.html'"></ng-include>
 			<ul id="possible_actions">
 				<li> <a class="action-button" href="2.html">Essayer de dormir</a></li>
 				<li> <a class="action-button" href="3.html">Parler avec la mamie</a></li>
@@ -56,6 +56,6 @@
 		</div>
 	</div>
 
-	<ng-include src="'footer.html'"></ng-include>
-	
+	<ng-include src="'partials/footer.html'"></ng-include>
+
 </body>
