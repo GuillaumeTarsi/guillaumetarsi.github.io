@@ -20,18 +20,11 @@ body {
   min-height: 100%  !important;
 }
 
-#main_container {
-  text-align: center;
-}
-#main_content {
-  display: inline-block;
-  width: 45%;
+
+
+#possible_actions {
 }
 
-#ababa {
-		max-height: 20px;
-
-}
 
 .video-container {
 	position: relative;
@@ -45,10 +38,10 @@ body {
 .video-container object,  
 .video-container embed {
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 85%;
-	height: 85%;
+	bottom : 10%;
+	left: 10%;
+	width: 75%;
+	height: 75%;
 }
 
 
