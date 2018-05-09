@@ -25,10 +25,21 @@ h1 {
 	text-align: center;
 }
 
-#possible_actions {
-	text-align: center;
-    list-style-type: none;
+
+
+#footer {
+bottom: 0;
 }
+
+p {
+	font-family: calibri;
+	font-size: 1.2em;
+	color : grey;
+}
+
+/* -----------------------------------------
+   VIDEO LAYOUT
+----------------------------------------- */
 
 
 .video-container {
@@ -37,6 +48,7 @@ h1 {
 	padding-top: 30px;
 	height: 0;
 	overflow: hidden;
+	margin-top : -6%;
 }
 
 .video-container iframe,  
@@ -50,17 +62,46 @@ h1 {
 }
 
 
-#footer {
-bottom: 0;
+
+/* -----------------------------------------
+	POSSIBLE ACTIONS
+----------------------------------------- */
+
+#context {
+	text-align: center;
 }
-/* -----------------------------------------
-   Page Name 1
------------------------------------------ */
 
 
+#possible_actions {
+	text-align: center;
+    list-style-type: none;
+    /*text-transform: uppercase;*/
+}
+
+#possible_actions li {
+	padding: 10px;
+}
 
 
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
+#possible_actions .action-button{
+	font-size: 1.3em;
+	border : 2px grey solid;
+	padding: 7px;
+	border-radius : 5px;
+	background-color : white;
+}
+
+#possible_actions .action-button:visited
+	{
+	color : green;
+}
+
+#possible_actions .action-button:hover,
+#possible_actions .action-button:focus,
+#possible_actions .action-button:active
+	{
+	color : red;
+}
+
+
 
