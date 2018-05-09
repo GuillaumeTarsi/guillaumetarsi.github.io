@@ -1,0 +1,68 @@
+/* Artfully masterminded by ZURB  */
+
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+html {
+  height: 100% !important; 
+}
+body {
+  min-height: 100%  !important;
+}
+
+#main_container {
+  text-align: center;
+}
+#main_content {
+  display: inline-block;
+  width: 45%;
+}
+
+#ababa {
+		max-height: 20px;
+
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 85%;
+	height: 85%;
+}
+
+
+#footer {
+bottom: 0;
+}
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
