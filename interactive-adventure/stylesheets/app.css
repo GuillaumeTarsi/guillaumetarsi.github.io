@@ -20,9 +20,14 @@ body {
   min-height: 100%  !important;
 }
 
-
+h1 {
+	font-size : 2em;
+	text-align: center;
+}
 
 #possible_actions {
+	text-align: center;
+    list-style-type: none;
 }
 
 
