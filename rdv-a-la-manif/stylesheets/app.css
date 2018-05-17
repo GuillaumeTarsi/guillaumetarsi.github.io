@@ -39,6 +39,10 @@ h1 {
 bottom: 0;
 }
 
+
+.subtitle {
+	font-size: 1.2em;
+}
 /* -----------------------------------------
    VIDEO LAYOUT
 ----------------------------------------- */
@@ -71,6 +75,8 @@ bottom: 0;
 
 #context {
 	text-align: center;
+	font-size : 1.2em;
+
 }
 
 
@@ -81,7 +87,7 @@ bottom: 0;
 }
 
 #possible_actions li {
-	padding: 10px;
+	padding: 20px;
 }
 
 
@@ -93,16 +99,14 @@ bottom: 0;
 	background-color : white;
 }
 
-#possible_actions .action-button:visited
-	{
-	color : green;
-}
+
 
 #possible_actions .action-button:hover,
 #possible_actions .action-button:focus,
 #possible_actions .action-button:active
 	{
-	color : red;
+	color : white;
+	background-color : #00217f;
 }
 
 
@@ -144,9 +148,18 @@ bottom: 0;
 		/*display: none;*/
 	}
 
+	.subtitle {
+		font-size: 0.9em;
+	}
+
 	#context {
 		font-size: 1em;
 	}
+
+	#video-wrapper {
+		margin-top: 20px;
+	}
+
 
 
 	#possible_actions li {
