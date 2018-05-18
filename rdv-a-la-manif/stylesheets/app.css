@@ -83,11 +83,13 @@ bottom: 0;
 #possible_actions {
 	text-align: center;
     list-style-type: none;
+    padding: 0 15% 0 15%;
     /*text-transform: uppercase;*/
 }
 
 #possible_actions li {
 	padding: 20px;
+	
 }
 
 
@@ -109,7 +111,12 @@ bottom: 0;
 	background-color : #00217f;
 }
 
-
+#possible_actions .action-button:hover a,
+#possible_actions .action-button:focus a,
+#possible_actions .action-button:active a
+	{
+	color : white;
+}
 
 
 

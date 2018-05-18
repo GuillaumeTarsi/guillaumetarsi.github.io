@@ -11,11 +11,13 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>(todo), l'épopée interactive</title>
+  <title>Rendez-vous à la manif, l'épopée interactive</title>
 
   <!-- Included CSS Files -->
   <link rel="stylesheet" href="stylesheets/default.css">
   <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/index.css">
+
 
   <!--[if lt IE 9]>
     <link rel="stylesheet" href="stylesheets/ie.css">
@@ -30,29 +32,43 @@
 
 </head>
 
+
 <body>
 
 	<div id="main_title" class="row">
 		<div class="twelve columns">
-		<h1>Rendez-vous à la manif'</h1>
-		<div class="subheader">Une épopée interactive dont vous êtes le héros</div>
+			<h1>Rendez-vous à la manif' !</h1>
 		</div>
 	</div>
 
-	<div id="sub_title" class="row">
+	<div id="subtitle" class="row">
+		<div class="twelve columns">
+			<span class="subtitle">
+			L'épopée interactive où <i>vous</i> devez faire les bons choix
+		 </span>
+		</div>
+	</div>
+
+	<div  class="row">
+		<div class="twelve columns">
+			<p align=center>
+				<img id="main-img" src="./images/thumbnail.png"/>
+			</p>
+		</div>
+	</div>
+
+
+	<div id="description" class="row">
 		<div class="twelve columns">
 		<p align="center">"Rendez-vous à la manif' !", avez-vous lancé — un peu vite – à vos amis.
-		Seulement voilà ; les rejoindre à la grande manifestation de cheminots à Paris depuis Montpellier ne sera pas une mince affaire en pleine période de grêve de trains. Il va falloir faire les bons choix ; en êtes-vous capables ?.</p>
+		Seulement voilà ; les rejoindre à la grande manifestation de cheminots à Paris depuis Montpellier ne sera pas une mince affaire en pleine période de grêve de trains. </br>Il  vous faudra faire les bons choix ; en êtes-vous capables ?.</p>
+		<ul id="possible_actions">
+				<li> <div class="action-button"><a href="./chapitres/00.html">COMMENCER L'AVENTURE</a></div></li>
+			</ul>
 		</div>
 	</div>
 	
-		
-		<div class="row">
-		<div class="twelve columns">
-			<ul id="possible_actions">
-				<li> <a href="./chapitres/00.html">Commencer l'aventure</a></li>
-			</ul>
-		</div>
+
 	</div>
 	<div class="row">
 		<div class="twelve columns">
