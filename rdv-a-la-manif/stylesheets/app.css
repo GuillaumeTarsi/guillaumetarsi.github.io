@@ -95,6 +95,7 @@ bottom: 0;
 
 
 #possible_actions .action-button{
+	display: block;
 	font-size: 1.3em;
 	border : 2px grey solid;
 	padding: 7px;
