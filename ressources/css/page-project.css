@@ -118,6 +118,11 @@
 	font-size: 1.25em;
 	line-height: 1.35em;
 	text-align: justify;
+	margin: 0;
+	text-indent : 5%;
+}
+
+.project-content span {
 	text-indent : 5%;
 }
 
