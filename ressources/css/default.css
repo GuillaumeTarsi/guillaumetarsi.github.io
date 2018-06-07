@@ -661,22 +661,22 @@ html, body,
         margin: 0 10px;
     }
 
-	.headerstandard.headerstandard-shrink {
+	.headerstandard {
 		height: 90px;
 	}  
 	
-    .headerstandard.headerstandard-shrink h1,
-    .headerstandard.headerstandard-shrink nav a {
+    .headerstandard h1,
+    .headerstandard nav a {
         line-height: 45px;
     }
  
-    .headerstandard.headerstandard-shrink h1 {
+    .headerstandard h1 {
         font-size: 3em;	
 		background: none;
 		text-indent: 0px;
     }
  
-    .headerstandard.headerstandard-shrink nav a {
+    .headerstandard nav a {
         font-size: 1.2em;
     }
 

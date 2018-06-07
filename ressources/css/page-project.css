@@ -146,6 +146,10 @@ margin : 3% auto auto auto;
 }
 
 
+h1 {
+	font-size : 2em;
+}
+
 #main h2 {
 	font-family: 'Candara', 'Crimson Text','Lato', Calibri, Arial, sans-serif;
     font-weight: 300;

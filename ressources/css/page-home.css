@@ -16,7 +16,7 @@
 
 #main section:first-child{
 	margin-top: 0px;
-    padding : 350px 20px 200px 20px
+    padding : 150px 20px 200px 20px
 }
 
 #main section:last-child{
@@ -119,17 +119,17 @@ h2 {
 }
 
 
-.headerstandard.headerstandard-shrink {
+.headerstandard {
     height: 90px;
 }
  
-.headerstandard.headerstandard-shrink h1,
-.headerstandard.headerstandard-shrink nav.menustandard a {
+.headerstandard h1,
+.headerstandard nav.menustandard a {
     line-height: 90px;
 }
  
-.headerstandard.headerstandard-shrink h1 {
-    font-size: 3em;
+.headerstandard h1 {
+    font-size: 2em;
 }
 
 
@@ -251,7 +251,7 @@ h2 {
 
 		 .headerstandard h1 {
 			letter-spacing: 4px;
-			font-size: 3em;
+			font-size: 2em;
 			float: left;
 		}
 
