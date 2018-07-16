@@ -1,6 +1,6 @@
 #main section {
 	min-height: 700px;
-    padding: 110px 8% 20px 8%;
+    padding: 50px 8% 20px 8%;
 	margin: 8% 0px;
 }
 
@@ -23,14 +23,35 @@
 	margin-bottom: 15%;
 }
 
+#filter {
+	font-size : 1.15em;
+	margin-bottom: 50px;
+}
+
+#filter .title{
+	font-size : 1.2em;
+}
+
 h3 {
 	font-size: 1.7em;
 }
 
-.project-thumbnail {
+/*.project-thumbnail {
 	object-fit: cover;
 	width : 280px;
 	height: 200px;
+}*/
+
+.isotope-item {
+	width: 560px;
+	height: 420px;
+	padding: 30px;
+}
+
+.project-thumbnail {
+	object-fit: cover;
+	width : 400px;
+	height: 285px;
 }
 
 

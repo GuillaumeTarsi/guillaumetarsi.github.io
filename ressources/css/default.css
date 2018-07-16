@@ -600,10 +600,7 @@ html, body,
 
 .grid li {
 	display: inline-block;
-	width: 320px;
-	height: 300px;
 	margin: 0;
-	padding: 10px;
 	margin: 0px auto;
 	position: relative;
 }
