@@ -1,0 +1,17 @@
+#column_center {
+	background : none;
+}
+
+
+#comic_container{
+	position: relative;
+}
+
+#sharebar {
+text-align: left;
+}
+
+
+.twitter-share-button {
+	margin-left: 8px;
+}
