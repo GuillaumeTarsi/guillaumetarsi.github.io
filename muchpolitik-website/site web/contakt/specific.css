@@ -1,0 +1,34 @@
+
+
+#column_center {
+ 	height: auto;
+	padding: 10px;
+ 	color: black;
+}
+
+
+#audio-container {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+#img-container  {
+	padding-top: 100px;
+	text-align: center;
+}
+
+#img-container img {
+	width: 666px;
+}
+
+#texte {
+	font-size: 30px;
+	margin-top: 110px;
+	text-align: center;
+}
+
+.plus_petit {
+	font-size: 20px;
+}

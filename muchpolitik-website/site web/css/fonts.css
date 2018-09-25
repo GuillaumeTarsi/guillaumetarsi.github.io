@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/roboto/Roboto-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: "KhmerOS";
+	src:url('../fonts/KhmerOS.ttf') format('truetype');
+	font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+  font-family : 'TitleFont';
+  src: url('fonts/Headlinetext.ttf') format('truetype');
+}
+
+@font-face {
+  font-family : 'NewspaperFont';
+  src: url('fonts/OldNewspaperTypes.ttf') format('truetype');
+}
+
+body {
+  font-family: "Roboto";
+  color : black;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: TitleFont;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+#column_center .bigtext {
+  /*color: rgb(33,41,43);*/
+  font-family: NewspaperFont;
+}
+
+#column_center  {
+  font-size: 23px;
+  /*color: rgb(33,41,43);*/
+  font-family: Roboto;
+}
+
+ #cronique_date_texte {
+  font-size : 24px;
+ }
+
+ #comments_title {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+ }
+
+
+
+
+
+.marge {
+  margin-left: 3em;
+}
+
+.p1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.p2 {
+  font-size: 22px;
+  text-align: justify;
+}
+
+
+.p3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px black dotted;
+  background: rgba(207,207,207,.6);
+
+  border-radius : 10px;
+}

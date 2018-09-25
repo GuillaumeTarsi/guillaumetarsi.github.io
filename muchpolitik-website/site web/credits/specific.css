@@ -1,0 +1,12 @@
+#main_text {
+	font-size : 24px;
+	color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+
+ul {
+	text-align: left;
+}
+

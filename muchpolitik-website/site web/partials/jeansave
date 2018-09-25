@@ -1,0 +1,74 @@
+<div id="part_rss" class="part">
+
+				<a href="/muchpolitik/flux.xml">
+					<div id="bouton_rss" class="bouton">
+					</div>
+				</a>
+				
+				<div id="title_rss" class="title">
+				</div>
+				
+		</div>
+
+
+		<div id="part_facebook" class="part">
+				
+				<a href="http://www.facebook.com/MuchPolitik">
+					<div id="bouton_facebook" class="bouton">
+					</div>
+				</a>
+
+				<div id="title_facebook" class="title">
+				</div>
+
+			</div>
+
+
+			<div id="part_twitter" class="part">
+
+				<a href="http://www.twitter.com/MuchPolitik">
+					<div id="bouton_twitter" class="bouton">
+					</div>
+				</a>
+
+				<div id="title_twitter" class="title">
+				</div>
+
+			</div>
+<div id="part_rss" class="part">
+
+				<a href="/muchpolitik/flux.xml">
+					<div id="bouton_rss" class="bouton">
+					</div>
+				</a>
+				
+				<div id="title_rss" class="title">
+				</div>
+				
+		</div>
+
+
+		<div id="part_facebook" class="part">
+				
+				<a href="http://www.facebook.com/MuchPolitik">
+					<div id="bouton_facebook" class="bouton">
+					</div>
+				</a>
+
+				<div id="title_facebook" class="title">
+				</div>
+
+			</div>
+
+
+			<div id="part_twitter" class="part">
+
+				<a href="http://www.twitter.com/MuchPolitik">
+					<div id="bouton_twitter" class="bouton">
+					</div>
+				</a>
+
+				<div id="title_twitter" class="title">
+				</div>
+
+			</div>
