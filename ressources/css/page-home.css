@@ -191,7 +191,7 @@ h2 {
 	margin : 0 15px 0 15px;
 }
 
-.social_button, .button-facebook, .button-twitter, .button-github {
+.social_button, .button-facebook, .button-twitter, .button-github, .button-instagram {
 	width: 50px;
 	height: 50px;
 	background-size: contain;
@@ -206,6 +206,10 @@ h2 {
 
 .button-twitter {
 	background-image: url("../images/twitter_off.png");
+}
+
+.button-instagram {
+	background-image: url("../images/instagram_off.png");
 }
 
 .button-github {
@@ -223,6 +227,10 @@ h2 {
 
 .social_button:hover .button-twitter {
 	background-image: url("../images/twitter_on.png");
+}
+
+.social_button:hover .button-instagram {
+	background-image: url("../images/instagram_on.png");
 }
 
 .social_button:hover .button-github {
