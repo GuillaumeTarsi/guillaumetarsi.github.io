@@ -1,3 +1,0 @@
-Upload sur uploadcache
-
-une image qui sera renommée + /flux.xml qui est mis à jour
