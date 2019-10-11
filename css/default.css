@@ -1,0 +1,1024 @@
+
+
+body, #container {
+    color: black;
+    background-color : #f4f4f4 ;
+}
+
+
+header{
+	background: #4281a4;
+}
+
+::selection{
+	background: #4281a4;
+}
+::-moz-selection{
+	background: #4281a4;
+}
+::-webkit-selection{
+	background: #4281a4;
+}
+
+a{
+	color: black;
+}
+
+a:hover {
+	color: #000;
+}
+
+h1, h2, h3{
+	color: #151756;
+	border-color: #151756;
+	font-family: 'Candara', 'Crimson Text', Calibri, Arial, sans-serif;
+}
+
+
+header h1 {
+	color : white;
+}
+
+
+hr{
+	border-color: #151756;
+}
+
+
+blockquote {
+	font-family: Calibri, Arial, sans-serif;
+}
+
+
+
+nav a{
+	color: white;
+	font-weight: 300;
+}
+
+nav a.current, nav a:hover{
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.accueil-visible{ background: #2d6648; }
+.a-propos-visible{ background: #2d6648; }
+.portfolio-visible{ background: #2d6648; }
+.contact-visible{ background: #3b825c; }
+
+
+#main .home h1{
+	</*background: transparent url('images/logo.png') center center no-repeat;*/
+}
+
+
+.quote{
+	background: rgba(30, 30, 30, 0.1) url('images/quote.png') 15px 15px no-repeat;
+	/*background: rgba(30, 30, 30, 0.6) url('images/quote.png') 15px 15px no-repeat;*/
+	padding: 15px 20px 50px 80px;
+}	
+
+.scroll {
+    background: url("images/scroll.png") no-repeat scroll center top transparent;
+}
+.scroll:hover{
+	background: url("images/scroll.png") bottom center no-repeat;
+}
+
+.progress {
+	background: #F0F0F0;
+}
+
+.progress .bar {
+    background: #E46C51;
+}
+
+.scroll {
+    background: url("images/scroll.png") no-repeat scroll center top transparent;
+}
+
+.scroll:hover{
+	background: url("images/scroll.png") bottom center no-repeat;
+}
+
+
+
+.grid figcaption {
+	background: #E46C51;
+	color: #F0F0F0;	
+}
+
+.grid figcaption a {
+	background: #F0F0F0;
+	color: #4281a4;
+}
+
+.grid figcaption h3 {
+	color: #fff;
+}
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+
+	.scroll {
+		background-image: url('images/scroll-small.png');
+	} 
+	.scroll:hover {
+		background-image: url('images/scroll-small.png');
+	}
+}
+
+
+
+/******************************************************
+
+	$INDEX0 - FONTS AND RESET
+	
+******************************************************/	
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,100);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+
+/******************************************************
+
+	$INDEX1 - GENERAL
+	
+******************************************************/	
+
+
+
+body {
+    font-family: Calibri, Arial, sans-serif;
+	font-weight: 300;
+
+    -moz-transition: background-color 1s ease-in;
+    -webkit-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    -ms-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in;
+}
+
+
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {}
+
+#container {
+	position: relative;
+	padding-bottom: 50%;
+}
+
+
+h1{
+	font-weight: 300;
+    font-size: 5em;
+	text-align: center;
+	margin: 0px 0px;
+}
+
+h1 a, h1 a:hover{
+	color: white;
+}
+
+
+h2{
+	font-weight: 300;
+    font-size: 2em;
+	text-align: center;
+	margin: 0px 0px;
+}
+
+h3{
+	font-weight: 500;
+    font-size: 1.8em;
+	text-align: left;
+	margin: 0px 0px;
+	border-bottom: 3px solid;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+	h3 {
+		font-size: 1.3em;
+		border-bottom: 1px solid;
+	}
+}
+
+
+@media screen and (max-width: 767px ) {
+	h3 {
+		font-size: 1em;
+		border-bottom: 1px solid;
+	}
+}
+
+
+hr{
+	border-top: 1px solid;
+	border-bottom: 0px;
+	margin: 20px auto 30px auto;
+	width: 98%;
+}
+
+.display{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
+.no-border{
+	border: 0px;
+}
+
+p{
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
+
+a.clickable-link {
+	font-size: 1em;
+}
+
+a.clickable-link.link-showy {
+	color : #0a81d1;
+}
+
+a.clickable-link.link-discrete{
+	font-weight: 400;
+	color : #151756;
+;
+}
+
+a.clickable-link:hover {
+	cursor: pointer;
+	color : #0a81d1;
+	text-decoration-line: underline;
+}
+
+
+ul {
+	text-align: left;
+	list-style-type: '⮚ ';
+	margin : 0;
+}
+
+
+
+/******************************************************
+
+	$INDEX2 - HEADER COMMON
+	
+******************************************************/	
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+header h1{
+	font-family: 'Candara', 'Lato', Calibri, Arial, sans-serif;
+	font-weight: 300;
+    margin: 0;
+}
+
+header h1, header nav a {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;	
+}
+
+
+
+
+
+
+
+
+	
+
+/******************************************************
+
+	$INDEX4 - HEADER STANDARD
+	
+******************************************************/	
+
+
+
+
+.headerstandard {
+    height: 150px;
+}
+
+
+		.headerstandard .headerstandard-inner {
+			width: 90%;
+			max-width: 69em;
+			margin: 0 auto;
+			padding: 0 1.875em;
+		}
+
+
+		 /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
+		.headerstandard h1,
+		.headerstandard nav.menustandard a {
+			line-height: 150px;
+		}
+
+		 .headerstandard h1 {
+			letter-spacing: 4px;
+			font-size: 2.5em;
+			float: left;
+			text-indent : 0;
+		}
+
+		 .headerstandard nav.menustandard{
+			display: inline-block;
+			position: relative;
+			float: right;
+		}
+
+		.headerstandard nav.menustandard a {
+			margin: 0 0 0 8px;
+			font-size: 1.4em;
+			font-weight: 300;
+			padding: 8px 10px;
+			
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+		}
+
+
+		
+		
+
+
+	
+	
+
+/******************************************************
+
+	$INDEX5 - HEADER STANDARD REDUIT
+	
+******************************************************/	
+
+
+
+
+
+
+
+
+.headerstandard {
+    height: 90px;
+}
+ 
+.headerstandard h1,
+.headerstandard nav.menustandard a {
+    line-height: 90px;
+}
+ 
+.headerstandard h1 {
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX6 - HEADER MOBILE
+	
+******************************************************/	
+
+header.headermobile button {
+	background: transparent url('../images/nav-icon.png') center center no-repeat;
+}
+
+header.headermobile button.button-back_to_portfolio {
+	background: transparent url('images/close.png') center center no-repeat;
+}
+
+
+
+header.headermobile {
+	position: fixed;
+	top: 0px;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0px auto 20px auto;
+	padding: 0 0 10px 0;
+	z-index: 10000;
+	display: none;
+}
+
+header.headermobile h1 {
+	font-weight: 300;
+	text-align: center;
+	font-size: 1.8em;
+	margin : 10px 0 0 15px;
+}
+
+header.headermobile button {
+	position: absolute;
+	float: left;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	margin: 8px 20px 0 15px;
+}
+
+
+				.menumobile a {
+					display: block;
+					text-transform: uppercase;
+					font-size: 1.2em;
+					font-weight: 300;
+					width: 100%;
+					text-align: center;
+					
+				}
+
+				/* Orientation-dependent styles for the content of the menu */
+
+				.menumobile {
+					width: 240px;
+					height: 100%;
+					top: 0;
+					z-index: 10000;
+				}
+
+				.menumobile a {
+					padding: 1em;
+				}
+
+
+
+
+
+	
+	
+	
+/******************************************************
+
+	$INDEX7 - MAIN CONTENT
+	
+******************************************************/	
+
+
+
+#main{
+	-webkit-transition: background 2s ease;
+	-moz-transition: background 2s ease;
+	transition: background 2s ease;
+}
+
+html, body,
+#container,
+#main,
+#main section {}
+
+
+
+.mobile{
+	display: none;
+}
+
+
+#main .home h1, h2{
+	font-weight: 300;
+	text-align: center;
+}
+
+
+#main .home h1{
+	font-size: 5em;
+	font-family: 'Lato', 'Lato', Calibri, Arial, sans-serif;
+	display: block;
+	width: 100%;
+	line-height: 0.8em;
+	height: 450px;
+	margin: 20px auto;
+	/*background: transparent url('../images/logo.png') center center no-repeat;*/
+}
+
+#main .home h2{
+	margin-top: -140px;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 3em;
+}
+
+.quote{
+	background: rgba(7, 43, 50, 0.6) url('../images/quote.png') 15px 15px no-repeat;
+	padding: 20px 20px 20px 80px;
+}	
+
+
+
+.scroll {
+	position: fixed;
+	bottom: 10px;
+	right: 10%;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    background: url("../images/scroll.png") no-repeat scroll center top transparent;
+
+		-webkit-transition: all .3s ease-out;
+		-moz-transition: all .3s ease-out;
+		-ms-transition: all .3s ease-out; 
+		-o-transition:  all .3s ease-out;  
+		transition: all .3s ease-out;
+}
+
+.scroll:hover{
+	background: url("../images/scroll.png") bottom center no-repeat;
+}
+
+
+.col50{
+	display: inline-block;
+	width: 45%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.left{ float: left; }
+.right{ float: right; }
+
+.col30{
+	width: 30.3%;
+}
+
+.progress {
+    height: 50px;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+    margin-bottom: 10px;
+}
+
+.progress .bar {
+    height: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-indent: 20px;
+	text-align: left;
+	border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3p;
+	-webkit-border-radius: 3px 0px 0px 3p;
+}
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX9 - THE TEAM
+	
+******************************************************/	
+
+
+#team{
+	width: 100%;
+	text-align: center;
+}
+
+	#team li{
+		margin: 20px 40px 20px 0px;
+		padding: 0px;
+		display: inline-block;
+		width: 220px;
+		height: 230px;
+		text-align: center;
+	}
+
+
+		
+		#team li figure{
+			margin: 0px;
+			padding: 0px;
+		}
+			#team li figcaption{
+				margin: 0px;
+				padding: 0px;
+				
+				-moz-transition: all 0.3s ease-in-out;
+				-webkit-transition: all 0.3s ease-in-out;
+				-o-transition: all 0.3s ease-in-out;
+				-ms-transition: all 0.3s ease-in-out;
+				transition: all 0.3s ease-in-out;
+			}
+			
+			#team li figcaption span{
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#team li figcaption.image{
+				display: inline-block;
+				width: 220px;
+				height: 180px;
+				text-align: center;
+				display: block;
+				float: left;
+			}
+				
+				#team li figcaption.image img{
+					margin: 0px;
+					padding: 0px;
+					height: 180px;
+				}
+		
+			#team li figcaption.contactme{
+				display: inline-block;
+				width: 0px;
+				height: 180px;
+				float: right;
+			}
+			#team li:hover figcaption.image{
+				width: 180px;
+			}
+			
+			#team li figcaption.contactme{
+				width: 0px;
+			}
+				#team li figcaption.contactme span{
+					display: block;
+					width: 0px;
+					height: 90px;
+					-moz-transition: all 0.3s ease-in-out;
+					-webkit-transition: all 0.3s ease-in-out;
+					-o-transition: all 0.3s ease-in-out;
+					-ms-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
+				}
+				
+				#team li figcaption.contactme span.facebook{
+					background: url('../images/facebook.png') center center no-repeat;
+				}
+				#team li figcaption.contactme span.twitter{
+					background: url('../images/twitter.png') center center no-repeat;
+				}
+				
+				#team li figcaption.contactme span:hover{ }
+				
+			#team li:hover figcaption.contactme{
+				width: 40px;
+			}
+			#team li:hover figcaption.contactme span{
+				width: 40px;
+			}
+
+			#team li figcaption.member{
+				text-align: center;
+				display: block;
+				width: 100%;
+				height: 50px;
+				top: 0px;
+				float: left;
+			}
+				#team li figcaption.member span{
+					display: block;
+					width: 100%;
+				}
+				#team li figcaption.member span.name{
+					font-family: 'Lobster Two', 'Lato', Calibri, Arial, sans-serif;
+					font-size: 1.3em;
+					line-height: 30px;
+				}
+				#team li figcaption.member span.role{
+					font-family: 'Lato', Calibri, Arial, sans-serif;
+					font-size: 0.8em;
+					line-height: 20px;
+				}
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX10 - CONTACT
+	
+******************************************************/	
+
+
+
+
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+    width:100%;
+    border: 0px;
+    margin:0px 0px 10px 0px;
+    padding:10px;
+	
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+}
+#contact-form button[type="submit"] {
+	font-family: 'Lobster Two', 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1.5em;
+    cursor:pointer;
+    width:100%;
+    border:none;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+}
+#contact-form button[type="submit"]:hover {}
+
+
+
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX11 - MEDIA QUERIES : TABLETS
+	
+******************************************************/	
+
+
+
+
+/* TABLETS */
+@media screen and (max-width: 1020px ) {
+     
+
+	a.clickable-link.link-very-discrete{
+		text-decoration: underline;
+	}
+
+    .headerstandard .headerstandard-inner {
+        width: 100%;
+    }
+ 
+    .headerstandard h1,
+    .headerstandard nav.menustandard{ 	
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+ 
+    .headerstandard h1,
+    .headerstandard nav.menustandard a {
+        line-height: 115px;
+    }
+ 
+    .headerstandard nav.menustandard a {
+        margin: 0 10px;
+    }
+
+	.headerstandard.headerstandard-shrink {
+		height: 150px;
+	}  
+	
+    .headerstandard.headerstandard-shrink h1,
+    .headerstandard.headerstandard-shrink nav a {
+        line-height: 45px;
+    }
+ 
+    .headerstandard.headerstandard-shrink h1 {
+        font-size: 3em;	
+		background: none;
+		text-indent: 0px;
+    }
+ 
+    .headerstandard.headerstandard-shrink nav a {
+        font-size: 1.2em;
+    }
+
+
+
+
+		
+	
+	#main h1{
+		font-size: 4em;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	#main h2{
+		font-size: 1.4em;
+	}
+	#main hr{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+			
+		
+	#main .home h1{
+		font-size: 4em;
+		padding-top: 190px;
+		line-height: 0.8em;
+		height: 350px;
+		margin: 20px auto;
+		/*background: transparent url('../images/logo-medium.png') center center no-repeat;*/
+	}
+	
+	#main .home h2{
+		margin-top: -70px;
+		font-family: 'Lato', Calibri, Arial, sans-serif;
+		font-size: 2.5em;
+	}
+	.scroll {
+		position: fixed;
+		bottom: 10px;
+		right: 0px;
+	}
+	 
+	.col50{
+		display: inline-block;
+		width: 100%;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+	.left{ float: none; }
+	/*.right{ float: none; }*/
+
+	.col30{
+		width: 100%;
+	}
+
+	.progress .bar {
+		text-transform: none;
+		font-size: 1.1em;
+	}
+
+}
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX12 - MEDIA QUERIES : SMARTPHONES
+	
+******************************************************/	
+
+
+
+
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+    .headerstandard {
+        display: none;
+    }
+	
+	
+    header.headermobile  {
+        display: block;
+    }
+	
+	.menumobile{
+		display: none;
+		width: 100%;
+	}
+
+
+	#main section{
+		/*margin: 150px 0px;*/
+		display: block;
+	}
+	
+	#main section:last-child{
+		margin-bottom: 100%;
+	}		
+	
+	#main h1{
+		font-size: 2.5em;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	#main h2{
+		font-size: 1.1em;
+	}
+	
+	
+	#main .home h1{
+		width: 80%;
+		font-size: 2.8em;
+		padding-top: 140px;
+		line-height: 0.8em;
+		height: 250px;
+		margin: 20px auto;
+		/*background: transparent url('../images/logo-small.png') center center no-repeat;*/
+	}
+	
+	#main .home h2{
+		margin-top: -20px;
+		font-family: 'Lato', Calibri, Arial, sans-serif;
+		font-size: 1.7em;
+	}
+
+ 
+	.scroll {
+		position: fixed;
+		top: 20px;
+		right: 10px;
+		float: right;
+		height: 20px;
+		width: 20px;
+		background-image: url('../images/scroll-small.png');
+		background-position: 0px 0px;
+		z-index: 99999;
+	} 
+	.scroll:hover {
+		background-image: url('../images/scroll-small.png');
+		background-position: 0px -20px;
+	}
+}
+

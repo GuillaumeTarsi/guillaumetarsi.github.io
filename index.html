@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="no-js">
-
-
+<html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -11,242 +9,237 @@
 	<meta name="keywords" content="guillaume, tarsi, scénariste, writer, author" />
 	<meta name="author" content="Guillaume Tarsi" />
 
-	<!--<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />-->
-	<link rel="stylesheet" type="text/css" href="./ressources/css/default.css" />
-	<link rel="stylesheet" type="text/css" href="./ressources/css/themes/tarsi/default.css" />
-  <link rel="stylesheet" type="text/css" href="./ressources/css/page-home.css" />
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/themes/tarsi/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/page-home.css" />
 
-	<script src="ressources/js/modernizr.custom.js"></script>
+	<link rel="icon" alt="Photo de Guillaume Tarsiguel" type="image/png" href="./images/biophoto.png">
+
+
+	<!-- todo <link rel="icon" alt="tetocarrée, by Boulet and Zanorg" type="image/png" href="./images/icon.png">-->
+
+	<script src="js/modernizr.custom.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 </head>
 
 
-
-<body class="accueil-visible">
-
-	
+<body class="section1-visible">
+		
 	<header class="headermobile mobile col-12">
 		<button id="releaseMenu" ></button>
-		 <a class="target-portfolio" href="#portfolio"><h1>Guillaume Tarsi</h1></a>
-		
+		<h1><a href="#portfolio">Guillaume Tarsi</a></h1>
 		<nav class="menu menumobile">	
-        <a class="target-portfolio" href="#portfolio">Mes projets</a>
-        <a class="target-a-propos" href="#a-propos">À propos</a>
-        <a class="target-contact" href="#contact">Contact</a>
+			<a class="target-portfolio current" href="#portfolio">Mes créations</a>
+			<a class="target-about" href="#about">Qui je suis</a>
+			<a class="target-contact" href="#contact">Me contacter</a>
 		</nav>
 	</header>	
 	
 	
 	
 	<div id="container" class="col-12">
-		<header class="headerstandard headerstandard-shrink">
-       <a class="target-portfolio" href="#portfolio"><h1> Guillaume Tarsi</h1></a>
+	
+		<header class="headerstandard headerhome">
 			<div class="headerstandard-inner">
+				<!--<img class="mini-icon" src="./images/biophoto.png"" alt="Photo de Guillaume Tarsiguel, par Laura Tarsiguel"/>-->
+				<h1><a href="#portfolio">Guillaume Tarsi</a></h1>
 				<nav class="menu menustandard">
-              <a class="target-portfolio" href="#portfolio">Mes projets</a>
-              <a class="target-a-propos" href="#a-propos">À propos</a>
-              <a class="target-contact" href="#contact">Contact</a>
+					<a data-filter=".all"  class="target-portfolio current" href="#portfolio">Mes créations</a>
+					<a class="target-about" href="#about">Qui je suis</a>
+					<a class="target-contact" href="#contact">Me contacter</a>
 				</nav>
 			</div>
 		</header>
 
 		
 		<div class="main" id="main">
+			
+			<section id="portfolio" class="portfolio">
+		
+				<div class="section-content">
 
-     <section id="portfolio" class="portfolio">
-        <!--<span class="h2-subheader"> — Mes projets et créations</span>-->
-
-        <div class="section-content">
-
-          <nav class="filter" id="filter" data-option-key="filter">
-            <span class="title">Filtrer les projets :</span>
-            <strong>
-              <a data-filter=".all" class="current" >Tous les projets</a> | 
-              <!--<a data-filter=".show">Séries</a> |--> 
-              <a data-filter=".cronics">Chroniques </a> | 
-              <a data-filter=".webcreation">Création web</a> | 
-              <a data-filter=".fiction">Fiction</a> | 
-              <a data-filter=".comic">Bande dessinée</a> | 
-              <a data-filter=".other">Autres</a>
-            </strong>
-          </nav>
-
-          <ul id="elements" class="grid">
-
-               <li class="all webcreation cronics">
-                <a href="./au-sommaire-ce-soir/index.html">
-                  <h3>Au sommaire ce soir</h3>
-                  <div class="project-subheader">Chroniques / podcast</div>
-                  <img class="project-thumbnail" src="./au-sommaire-ce-soir/thumbnail.png">
-                  <div class="project-cta">Voir le projet</div>
-                </a>
-              </li>
-
-              <!--<li class="all fiction comic webcreation">
-                <a href="./archibald-occiput/index.html">
-                  <h3>Archibald Occiput</h3>
-                  <span class="project-subheader">Bande dessinée / webcomic</span>
-                  <img class="project-thumbnail" src="./archibald-occiput/thumbnail.png">
-                  <div class="project-cta">Voir le projet</div>
-                </a>
-              </li>
-            -->
-
-              <li class="all comic cronics">
-                <a href="./muchpolitik/index.html">
-                  <h3>Much Politik - la BD</h3>
-                  <div class="project-subheader">Chroniques d'actu décalées en BD</div>
-                  <img class="project-thumbnail" src="./muchpolitik/thumbnail.png">
-                  <div class="project-cta">Voir le projet</div>
-                </a>
-              </li>
-
-              <li class="all fiction">
-                <a href="./a-touch-of-cheese/index.html">
-                  <h3>A touch of cheese</h3>
-                  <div class="project-subheader">Fiction / série</div>
-                  <img class="project-thumbnail" src="./a-touch-of-cheese/thumbnail.png">
-                  <div class="project-cta">Voir le projet</div>
-                </a>
-              </li>
-
-              <li class="all webcreation fiction">
-              <a href="./epopee-interactive/index.html">
-                <h3>Rendez-vous à la manif</h3>
-                <div class="project-subheader">Fiction interactive</div>
-                <img class="project-thumbnail" src="./epopee-interactive/thumbnail.png">
-                <div class="project-cta">Voir le projet</div>
-              </a>
-            </li>
-
-            <li class="all webcreation" >
-              <a href="./muchpolitik-lejeuvideo/index.html">
-                <h3>Much Politik - le jeu vidéo</h3>
-                <div class="project-subheader">Jeu vidéo à scénario</div>
-                <img class="project-thumbnail" src="./muchpolitik-lejeuvideo/thumbnail.png">
-                <div class="project-cta">Voir le projet</div>
-              </a>
-            </li>
-
-            <li class="all fiction other">
-              <a href="./ete-indien/index.html">
-                <h3>Été indien</h3>
-                <div class="project-subheader">Clip musical</div>
-                <img class="project-thumbnail" src="./ete-indien/thumbnail.png">
-                <div class="project-cta">Voir le projet</div>
-              </a>
-            </li>
+			        <nav id="filter" class="filter"  data-option-key="filter">
+			        	<span class="title">Filtrer les projets :</span>
+			        	<strong>
+			            	<a data-filter=".all" class="current" >Tous&nbsp;les&nbsp;projets</a> | 
+			              <!--<a data-filter=".show">Séries</a> |--> 
+			              	<a data-filter=".cronics">Chroniques</a> | 
+			             	<a data-filter=".webcreation">Création&nbsp;web</a> | 
+			              	<a data-filter=".fiction">Fiction</a> | 
+			              	<a data-filter=".comic">Bande&nbsp;dessinée</a> | 
+			              	<a data-filter=".other">Autre</a>
+			            </strong>
+			        </nav>
 
 
-              <li class="all fiction comic">
-                <a href="./leonore-et-brume/index.html">
-                  <h3>Léonore & Brume</h3>
-                  <span class="project-subheader">Bande dessinée jeunesse</span>
-                  <img class="project-thumbnail" src="./leonore-et-brume/thumbnail.png">
-                  <div class="project-cta">Voir le projet</div>
-                </a>
-              </li>
-      
+			        <ul id="elements" class="grid">
+			        	<li class="all cronics">
+			               	<a href="./chroniques-radio-tele/index.html">
+			                 	<h3>Chroniques radio et télé</h3>
+			                  	<div class="project-subheader">Chroniques humoristiques sur l'actu</div>
+			                  	<img class="project-thumbnail" src="./chroniques-radio-tele/img/thumbnail.jpg">
+			                  	<div class="project-cta">Voir le projet</div>
+			                </a>
+			             </li>
 
-           <!-- <li class="all webcreation other">
-              <a href="./candidatron/index.html">
-                <h3>Le candidatron</h3>
-                <span>Fiction / clip musical</span>
-                <img class="project-thumbnail" src="./candidatron/thumbnail.png">
-                <div class="project-cta"> Voir le projet</div>
-              </a>
-            </li> -->
+			            <li class="all comic cronics">
+			                <a href="./muchpolitik/index.html">
+			                 	<h3>Much Politik</h3>
+			                	<div class="project-subheader">Webcomic d'actu décalé et créations multimédia</div>
+			                	<img class="project-thumbnail" src="./muchpolitik/img/thumbnail.png">
+			                 	<div class="project-cta">Voir le projet</div>
+			                </a>
+			            </li>
+			              <li class="all fiction comic webcreation">
+			                <a href="./archibald-occiput/index.html">
+			                  <h3>Archibald Occiput</h3>
+			                  <span class="project-subheader">Bande dessinée / webcomic</span>
+			                  <img class="project-thumbnail" src="./archibald-occiput/img/thumbnail.png">
+			                  <div class="project-cta">Voir le projet</div>
+			                </a>
+			             </li>
+			            <li class="all webcreation cronics">
+			               	<a href="./au-sommaire-ce-soir/index.html">
+			                 	<h3>Au sommaire ce soir</h3>
+			                  	<div class="project-subheader">Chroniques / podcast</div>
+			                  	<img class="project-thumbnail" src="./au-sommaire-ce-soir/img/thumbnail.png">
+			                  	<div class="project-cta">Voir le projet</div>
+			                </a>
+			             </li>
+			            
+			            <li class="all fiction">
+			                <a href="./a-touch-of-cheese/index.html">
+			                 	<h3>A touch of cheese</h3>
+			                 	<div class="project-subheader">Fiction / série</div>
+			                 	<img class="project-thumbnail" src="./a-touch-of-cheese/img/thumbnail.png">
+			                 	<div class="project-cta">Voir le projet</div>
+			                </a>
+			            </li>
+			            <li class="all webcreation fiction">
+			              	<a href="./epopee-interactive/index.html">
+			                	<h3>Rendez-vous à la manif</h3>
+			                	<div class="project-subheader">Fiction interactive</div>
+			                	<img class="project-thumbnail" src="./epopee-interactive/img/thumbnail.png">
+			                	<div class="project-cta">Voir le projet</div>
+			              	</a>
+			            </li>
+			            <li class="all fiction other">
+			              	<a href="./ete-indien/index.html">
+			                	<h3>Été indien</h3>
+			                	<div class="project-subheader">Clip musical</div>
+			                	<img class="project-thumbnail" src="./ete-indien/img/thumbnail.png">
+			            		<div class="project-cta">Voir le projet</div>
+			              	</a>
+			            </li>
+			            <li class="all fiction comic">
+			            	<a href="./leonore-et-brume/index.html">
+			                	<h3>Léonore & Brume</h3>
+			                  	<span class="project-subheader">Bande dessinée jeunesse</span>
+			                  	<img class="project-thumbnail" src="./leonore-et-brume/img/thumbnail.png">
+			                  	<div class="project-cta">Voir le projet</div>
+			                </a>
+			            </li>
+			           <!-- <li class="all webcreation other">
+			              <a href="./candidatron/index.html">
+			                <h3>Le candidatron</h3>
+			                <span>Fiction / clip musical</span>
+			                <img class="project-thumbnail" src="./candidatron/thumbnail.png">
+			                <div class="project-cta"> Voir le projet</div>
+			              </a>
+			            </li> -->
+			           <!-- <li class="all show">
+			              <a href="./mauvaises-graines/index.html">
+			                <h3>Mauvaises graines</h3>
+			                <span>Fiction / série</span>
+			                <img class="project-thumbnail" src="./mavaises-graines/thumbnail.png">
+			                <div class="project-cta"> Voir le projet</div>
+			              </a>
+			            </li> -->
+			             <!--<li class="all show">
+			              <a href="./leonore-et-brume/index.html">
+			                <h3>Léonore et Brume</h3>
+			                <span>Fiction BD</span>
+			                <img class="project-thumbnail" src="./leonore-et-brume/thumbnail.png">
+			                <div class="project-cta"> Voir le projet</div>
+			              </a>
+			            </li>-->
+			            <!--<li class="all webcreation other">
+			              <a href="./safari/index.html">
+			                <h3>Safari</h3>
+			                <span>Création web artistique</span>
+			                <img class="project-thumbnail" src="./safari/thumbnail.png">
+			                <div class="project-cta"> Voir le projet</div>
+			              </a>
+			            </li>-->
 
+			        </ul>
+			    </div>
+			</section>
+			
 
-           <!-- <li class="all show">
-              <a href="./mauvaises-graines/index.html">
-                <h3>Mauvaises graines</h3>
-                <span>Fiction / série</span>
-                <img class="project-thumbnail" src="./mavaises-graines/thumbnail.png">
-                <div class="project-cta"> Voir le projet</div>
-              </a>
-            </li> -->
-
-             <!--<li class="all show">
-              <a href="./leonore-et-brume/index.html">
-                <h3>Léonore et Brume</h3>
-                <span>Fiction BD</span>
-                <img class="project-thumbnail" src="./leonore-et-brume/thumbnail.png">
-                <div class="project-cta"> Voir le projet</div>
-              </a>
-            </li>-->
-
-            <!--<li class="all webcreation other">
-              <a href="./safari/index.html">
-                <h3>Safari</h3>
-                <span>Création web artistique</span>
-                <img class="project-thumbnail" src="./safari/thumbnail.png">
-                <div class="project-cta"> Voir le projet</div>
-              </a>
-            </li>-->
-
-          </ul>
-        </div>
-      </section>
-      
-						
-			<section id="a-propos" class="about">
-				<h2>À propos</h2>
+								
+			<section id="about" class="about">
+				<h2 class="main_section-title">Qui je suis</h2>
 				<div class="section-content text-content">
       
-           <p>
-          Après avoir commencé dans le milieu de la télé associative(TéléSorbonne) et du court-métrage (réalisation, écriture, montage), j'ai élargi mes projets d'écriture ; c'est ainsi qu'est né en 2013 le webcomic d'actualité Much Politik, bientôt décliné sous de multiples formats transmédias (albums papier, site web participatif, jeu vidéo).</p>
+	          		<section id="mini_bio">
+						<figure><a class="image-popup" href="./files/photo-guillaumetarsi.png"><img id="photo-guillaumetarsi" src="./files/photo-guillaumetarsi.png"></a></figure>
+						<p>Ingénieur de formation, je laisse enfin exploser mes pulsions de création audiovisuelle en fondant, dans mon école, un club de courts&#8209;métrages. Puis, en 2015, je rejoins la télé associative <a class="clickable-link link-discrete" target="_blank" href="http://www.telesorbonne.com">TéléSorbonne</a>, où j'écris et je tourne des reportages et des fictions.<p>
+						<p>En parallèle, je lance <a class="clickable-link link-discrete" target="_blank" href="http://www.tarsi.fr/muchpolitik">Much Politik</a>, un webcomic de chroniques d'actualité à l'humour absurde, que je décline sous de nombreuses autres formes : albums papier (éditions Lapin), site web participatif, fiction interactive et même jeu vidéo.</p>
+						<p>J'y découvre un goût pour faire réfléchir sur des thèmes modernes, à travers un point de vue unique ou décalé. Curieux de tout, j'explore pour cela divers supports en tirant parti des spécificités de chaque média : web, radio, télé, bande dessinée, fiction interactive... et je suis toujours à l'affût de nouvelles façons de raconter des histoires, ou de nouveaux formats à explorer.</p>
+						<div class="resume">
+							►<a href="./files/CV_GuillaumeTarsi.pdf" download>📄</a> <a class="clickable-link link-showy" href="./files/CV_GuillaumeTarsi.pdf" download>Télécharger mon CV (.pdf)</a>
+						</div>
+					</section>
 
-          <p> Aujourd'hui, je travaille en tant qu'auteur-scénariste sur des projets d'écriture à plus long terme sous divers formats, comme la série, le jeu vidéo, ou les chroniques d'actualité. Je crée également des storyboards pour la bande dessinée. Et je continue toujours, en parallèle, d'explorer les possibilités du transmédia, en particulier sur le web !
-          </p>
-       
-        </br>
-          <p>
-           ►<a class="clickable-link" href="./ressources/files/CV-GuillaumeTarsi.pdf">Télécharger mon CV</a>
-          </p>
-      </div>
+
+					<section id="mini_info">
+				
+						<div>
+							<h3>Projets réalisés :</h3>
+							<ul>
+								<li><p><strong>Créations multimédia</strong> — contenu multimédia avec <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/muchpolitik/">Much Politik</a>, fiction interactive avec <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/epopée-interactive/">Rendez-vous à la manif</a></p></li>
+								<li><p><strong>Bande dessinée</strong> — <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/muchpolitik/">Much Politik</a>, <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/archibald-occiput/">Archibald Occiput</a>, <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/leonore-et-brume/">Léonore et Brume</a></p></li>
+								<li><p><strong>Séries</strong> — <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/le-début-de-la-fin/">Le début de la fin</a>, <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/a-touch-of-cheese/">A touch of cheese</a></p></li>
+								<li><p><strong>Créations audiovisuelles</strong> — <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/ete-indien/">L'Été Indien</a>, <a target="_blank" class="clickable-link link-discrete" href="http://www.tarsi.fr/catch-litteraire/">reportage sur le catch littéraire</a></p>						</li>
+							</ul>
+						</div>				
+					</section>
+
+      			</div>
 								
 			</section>
 
 			
 			
-			
 		
 			
-			
-			
-			
 			<section id="contact" class="contact">	
-				<h2>Me contacter</h2>
+				<h2 class="main_section-title">Me contacter</h2>
+		   
+		          	<div class="col50 left contact_info">
+		            	<div class="contact_info-main text-content">
+			             	<p alt="e-mail address">E-mail — <strong>guillaume.tarsi@gmail.com</strong></p>
+			              	<!--<p alt="phone number">Téléphone — <strong> +33 6 xx xx xx xx</strong></p>-->
+			              	<p alt="city">Basé à <strong>Paris</strong></p>
+			            </div>
+			         </div>
 
-        <div class="section-content">
-          <div class="col45 left">
-          <img class="bio-photo" src="ressources/images/bio-photo2.png" alt="Photo de Guillaume Tarsi" title="Guillaume Tarsi, le regard malicieux perdu dans l'horizon radieux d'un avenir à construire ensemble">
-          </div>
-                
-          <div class="col30 left contact_info">
-             <div class="contact_info-main text-content">
-              <p alt="e-mail address">E-mail — <strong>guillaume.tarsi@gmail.com</strong></p>
-              <!--<p alt="phone number">Téléphone — <strong> +33 6 xx xx xx xx</strong></p>-->
-              <p alt="city">Basé à <strong>Paris</strong></p>
-            </div>
-
-            <div class="contact_info-social">
-              <p>Vous pouvez me suivre par ici :</p>
-              <a class="social_button" href=http://www.facebook.com/guillaumetarsi> <div class="button-facebook"></div><span class="social_button-name">Facebook</span></a>
-              <a class="social_button" href=http://www.twitter.com/guillaumetarsi><div class="button-twitter"></div><span class="social_button-name">Twitter</span></a>
-              <a class="social_button" href=http://www.instagram.com/guillaumetarsi><div class="button-instagram"></div><span class="social_button-name">Instagram</span></a>
-              <a class="social_button" href=http://www.github.com/guillaumetarsi><div class="button-github"></div><span class="social_button-name">Github</span></a>
-            </div>
-          </div>
-
-
-	</section>
+			         <div class="col50 right contact_info-social">
+			              <p>Vous pouvez me suivre par ici :</p>
+			              <a class="social_button" href=http://www.facebook.com/guillaumetarsi> <div class="button-facebook"></div><span class="social_button-name">Facebook</span></a>
+			              <a class="social_button" href=http://www.twitter.com/guillaumetarsi><div class="button-twitter"></div><span class="social_button-name">Twitter</span></a>
+			              <a class="social_button" href=http://www.instagram.com/guillaumetarsi><div class="button-instagram"></div><span class="social_button-name">Instagram</span></a>
+			              <a class="social_button" href=http://www.github.com/guillaumetarsi><div class="button-github"></div><span class="social_button-name">Github</span></a>
+			         </div>
+		    </section>
 		
 		</div>
 		
 		
 		<nav class="menu">
-			<a title="" href="#accueil">
+			<a title="" href="#portfolio">
 				<div class="scroll"></div>
 			</a>
 		</nav>
@@ -254,21 +247,21 @@
 	</div>
 	
 	<!-- Jquery -->
-	<script src="ressources/js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-	<script src="ressources/js/classie.js"></script>
+	<script src="js/classie.js"></script>
 
 	<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
-	<script src="ressources/js/waypoints.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
 	<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
-	<script src="ressources/js/jquery.debouncedresize.js"></script>
+	<script src="js/jquery.debouncedresize.js"></script>
 	<!-- Isotope : Filtering http://isotope.metafizzy.co/demos/filtering.html -->
-	<script src="ressources/js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
 	<!-- MagnificPopup -->
-	<!--<script src="js/jquery.magnific-popup.min.js"></script>-->
+	<script src="js/jquery.magnific-popup.min.js"></script>
 	
 	<!-- Gestion générale -->
-	<script src="ressources/js/custom.js"></script>
+	<script src="js/custom.js"></script>
 
 </body>
 </html>

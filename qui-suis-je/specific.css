@@ -1,0 +1,45 @@
+/******************************************************
+	
+******************************************************/	
+
+
+
+#main {
+	margin : 5% 0 8% 0;
+}
+
+h1 {
+	text-align: left;
+}
+
+section#mini_bio {
+	margin : 3em 0 3em 0;
+}
+
+section#mini_info {
+	display: inline-block;
+	padding: 10px 10% 0 10%;
+}
+
+section#mini_info h2{
+	font-size: 1.4em;
+	margin : 0 0 20px 0;
+}	
+
+
+
+#photo-guillaumetarsi {
+	width: 350px;
+	float : left;
+	margin : 0 50px 5px 0;
+}
+
+.resume {
+	font-weight: bold;
+	margin : 30px 0 0 0;
+}
+
+.email {
+	color : #151756;
+}
+

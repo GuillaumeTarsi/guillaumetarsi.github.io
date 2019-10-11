@@ -1,0 +1,470 @@
+
+
+/* GENERAL */
+#main {
+	font-size: 1.2em;
+	padding: 50px 12% 0 12%;
+}
+
+
+.mfp-iframe {max-width: 50%;}
+
+
+h1 {
+	font-size : 1.8em;
+	color : #151756;
+}
+
+h2 {
+	font-size: 1.1em;
+	letter-spacing: 0.02em;
+	margin: 0 0 0.2em 0;
+	text-align: left;
+}
+
+h3 {
+	font-size: 1em;
+	color : black;
+	text-indent: 1em;
+	border-bottom: none;
+	margin: 20px 0 0 0 ;
+}
+
+
+p {
+	text-indent : 3%;
+	font-size: 1em;
+	line-height: 1.3em;
+	text-align: justify;
+	margin: 1% 0 1% 0;
+}
+
+ul {
+	text-align: left;
+	list-style-type: '⮚ ';
+	margin : 0;
+}
+
+
+
+li p {
+	text-indent : 1%;
+}
+
+@media screen and (max-width: 1020px ) {
+	li p {
+		text-align : left;
+	}
+}
+
+p strong {
+	font-weight: bold;
+	color: dimgrey;
+}
+
+
+.main_section {
+	margin: 150px 0 100px 0 ;
+}
+
+
+.subsection {
+	margin : 13% 0 10% 0;
+}
+
+.project_subsection {
+	margin : 0 0 1.5em 0;
+}
+
+
+
+figcaption {
+	font-size: 0.9em;
+	margin: 0.8em 0 10px 0;
+	letter-spacing: 0.09em;
+	text-align: left;
+	font-weight: bold;
+	color : grey;
+}
+
+
+section#project_content, section#project_media {
+	overflow: auto;
+}
+
+section#project_media {
+	margin : 5% 0 10% 0;
+}
+
+section#project_media h2{
+	font-size: 1.4em;
+	border-bottom: 1px solid;
+}
+
+/* END OF */
+/* GENERAL */
+
+
+
+
+
+/* TITLE SECTION */
+
+
+#title_section {
+	margin : 4em 0 0 0;
+}
+
+#project-title_and_tagline {
+	border-bottom: 1px solid;
+}
+
+#project_title {
+	text-align : left;
+	display: inline-block;
+}
+
+#project_tagline {
+	text-indent: 0;
+	display: inline-block;
+	font-size : 1.4em;
+	line-height: 1.8em;
+	margin : 0;
+	color : #151756;
+}
+
+
+#project_tagline span:before{
+    content: "— ";
+}
+
+#project_type p{
+	font-style : italic;
+	text-indent: 0;
+	font-size : 1.1em;
+	line-height: 3em;
+	margin : 0;
+	color: dimgrey;
+}
+
+/* END OF */
+/* TITLE SECTION */
+
+
+
+/* SPECIFICS */
+
+.clearfix {
+  overflow: auto;
+}
+
+.column_text {
+	width : 55%;
+}
+
+.column_images {
+	margin : -00em 0 0 0;
+	width: 40%;
+	text-align: right;
+}
+
+
+.column_images figure {
+	margin : 5px 0 5px 0;
+}
+
+.column_images figure img {
+	height: auto !important;
+	max-width: 100%;
+	min-width: 60%;
+	max-height: 600px;
+}
+
+.project_media-container {
+	width: 100%;
+	text-align: center;
+	margin : 40px 0 60px 0;
+}
+
+
+/* END OF */
+/* SPECIFICS */
+
+
+/*.headerstandard h1 {
+	float: right !important;
+	font-size : 1.6em;
+	line-height: 55px;
+}
+
+
+.headerstandard nav.menustandard a {
+	line-height: 55px;
+	font-size: 1.2em;
+}
+
+.headerstandard nav.menustandard {
+	float: left;
+}
+
+.headerstandard, .menu .menustandard {
+	height: 55px;
+}
+
+*/
+
+.main {
+	margin-top: 0;
+	background-color :#f4f4f4;
+	color : #393a10;
+	padding: 3% 10% 15% 10%;
+}
+
+.main .h1-subheader {
+	font-size: 1.4em;
+	font-weight: 400;
+	margin : 0 0 3% 0;
+}
+
+
+#container {
+	padding-bottom: 0;
+}
+
+
+
+
+
+.project-content {
+	margin : 120px 7% 0 7%;
+}
+
+
+.project-content p {
+	font-size: 1.25em;
+	line-height: 1.35em;
+	text-align: justify;
+	margin: 0;
+	text-indent : 5%;
+}
+
+.project-content span {
+	text-indent : 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/******************************************************
+
+	$INDEX11 - MEDIA QUERIES : TABLETS
+	
+******************************************************/	
+
+
+
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+
+	#main {
+		padding : 0 8% 0 8%;
+	}
+
+
+	/* TITLE SECTION FOR TABLETS */
+
+
+		#title_section {
+			margin : 1.5em 0 1em 0;
+		}
+
+		#project-title_and_tagline {
+			border-bottom: 1px solid;
+			margin-bottom: 0.5em;
+		}
+
+		#project_title {
+			text-align : left;
+			display: inline-block;
+		}
+
+		#project_tagline {
+			text-indent: 0;
+			display: inline-block;
+			font-size : 1.4em;
+			line-height: 1.8em;
+			margin : 0;
+			color: dimgrey;
+		}
+
+		#project_tagline span:before{
+		    content: "— ";
+		}
+
+		#project_type p{
+			font-style : italic;
+			text-indent: 0;
+			font-size : 1em;
+			line-height: 1em;
+			margin : 0;
+			color: dimgrey;
+		}
+
+	/* END OF */
+	/* TITLE SECTION FOR TABLETS*/
+
+	#main h1 {
+		font-size : 1.3em;
+	}
+
+	#main h2 {
+		font-size: 1.1em;
+		letter-spacing: 0.02em;
+		margin: 0 0 0.2em 0;
+	}
+
+
+	p {
+		font-size: 0.9em;
+		line-height: 1.3em;
+		text-indent: 1.3em;
+		text-align: justify;
+
+	}
+
+	.listwrapper {
+		padding: 0;
+	}
+
+	.listwrapper p {
+		margin-top: 5%;
+		margin-bottom: 5%;
+		text-align: justify;
+	}
+
+
+	#project_tagline {
+		font-size : 1.3em;
+		line-height: 1.2em;
+		letter-spacing: 0.06em;
+		margin-top : 50px;
+		text-align: left;
+	}
+
+
+}
+
+
+
+
+
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+
+	/*.main {
+		margin-top: 10px;
+		padding-top: 10px; 
+	}*/
+
+
+	#main {
+		padding: 30px 2.2em 100px 2.2em;
+	}
+
+	.main_section {
+		margin : 70px 0 10px 0;
+	}
+
+	.column_text, .column_images {
+		width : 100%;
+		min-width: 200px;
+	}
+
+	.column_images {
+		margin-top: 30px;
+	}
+
+
+	#main h2 {
+		font-size: 1.1em;
+		letter-spacing: 0.1em;
+		text-align: left;
+		font-weight: 600px
+		margin: 10% 0 15% 0;
+	}
+
+
+
+	p {
+		font-size: 0.9em;
+		line-height: 1.2em;
+		text-indent: 0;
+		margin : 2% 0 2% 0;
+	}
+
+	
+	figcaption {
+    	font-size: 0.7em;
+    	text-align: left;
+	}
+
+
+
+
+
+	/* TITLE SECTION FOR SMARTPHONES */
+
+
+		#title_section {
+			margin : 2em 0 1em 0;
+		}
+
+		#project-title_and_tagline {
+			margin-bottom: 5px;
+			border-bottom: none;
+		}
+
+		h1#project_title {
+			text-align : left;
+			border-bottom: 1px solid;
+			font-size : 1.4em;
+			display: block;
+		}
+
+		#project_tagline {
+			display: block;
+			font-size : 1.1em;
+			line-height: 1em;
+			margin-bottom: 2px;
+		}
+
+		#project_tagline span:before{
+		    content: none;
+		}
+
+		#project_type p{
+			font-style : italic;
+			text-indent: 0;
+			font-size : 0.8em;
+			line-height: 0.8em;
+			margin : 0;
+		}
+
+	/* END OF */
+	/* TITLE SECTION FOR SMARTPHONES*/
+
+	#main section:last-child {
+		margin-bottom: 0;
+	}
+
+}
