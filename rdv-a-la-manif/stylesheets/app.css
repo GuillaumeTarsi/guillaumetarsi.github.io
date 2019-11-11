@@ -1,0 +1,187 @@
+/* Artfully masterminded by ZURB  */
+
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+html {
+  height: 100% !important; 
+}
+body {
+  min-height: 100%  !important;
+  	font-family: calibri;
+	font-size: 1.2em;
+	color : grey;
+
+}
+
+h1 {
+	font-size : 2em;
+	text-align: center;
+}
+
+#subtitle {
+	text-align: center;
+	color : grey;
+	font-family: calibri;
+}
+
+#footer {
+bottom: 0;
+}
+
+
+.subtitle {
+	font-size: 1.2em;
+}
+/* -----------------------------------------
+   VIDEO LAYOUT
+----------------------------------------- */
+
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-top : -6%;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	bottom : 10%;
+	left: 10%;
+	width: 75%;
+	height: 75%;
+}
+
+
+
+/* -----------------------------------------
+	POSSIBLE ACTIONS
+----------------------------------------- */
+
+#context {
+	text-align: center;
+	font-size : 1.3em;
+	color : black;
+
+}
+
+
+#possible_actions {
+	text-align: center;
+    list-style-type: none;
+    padding: 0 15% 0 15%;
+    /*text-transform: uppercase;*/
+}
+
+#possible_actions li {
+	padding: 20px;
+	
+}
+
+
+#possible_actions .action-button{
+	display: block;
+	font-size: 1.3em;
+	border : 2px grey solid;
+	padding: 7px;
+	border-radius : 5px;
+	background-color : white;
+}
+
+
+
+#possible_actions .action-button:hover,
+#possible_actions .action-button:focus,
+#possible_actions .action-button:active
+	{
+	color : white;
+	background-color : #00217f;
+}
+
+#possible_actions .action-button:hover a,
+#possible_actions .action-button:focus a,
+#possible_actions .action-button:active a
+	{
+	color : white;
+}
+
+
+
+
+
+
+
+
+/* -----------------------------------------
+	MEDIA QUERIES : TABLETS
+----------------------------------------- */
+
+
+/* TABLETS */
+@media screen and (max-width: 1020px ) {
+     
+}
+
+
+
+
+
+/* -----------------------------------------
+	MEDIA QUERIES : SMARTPHONES
+----------------------------------------- */
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+	h1 {
+		font-size: 1.3em;
+	}
+
+	#subtitle {
+		font-size : 0.1em;
+		/*display: none;*/
+	}
+
+	.subtitle {
+		font-size: 0.9em;
+	}
+
+	#context {
+		font-size: 1em;
+	}
+
+	#video-wrapper {
+		margin-top: 20px;
+	}
+
+
+
+	#possible_actions li {
+		padding: 15px;
+	}
+
+
+	#possible_actions .action-button{
+		font-size: 1em;
+		border : 2px grey solid;
+		padding: 8px;
+		border-radius : 5px;
+	}
+   
+}
+
